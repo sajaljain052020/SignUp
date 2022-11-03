@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+
+    <div class="container  p-5 d-flex flex-column align-items-center">
+        <div class="p-5 student-form rounded shadow border col-lg-6 col-md-10 col-sm-12 col-xs-12">
+            <div class="text-center pb-3">
+                <h1 class="text-white">SOME UNIVERSITY</h1>
+                <p class="text-white">Student Registration Form</p>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td class="text-white">Name:</td>
+                        <td><input type="text">
+                            <p></p>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="text-white">DOB:</td>
+                        <td><input type="date" max="2022-11-02">
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">Sex:</td>
+                        <td><span><input type="radio" name="gender" value="male">Male<input type="radio" name="gender"
+                                    value="female">Female</span>
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">Email:</td>
+                        <td><input type="email" class="">
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">Address:</td>
+                        <td><input type="text">
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">School:</td>
+                        <td><select name="school" id="schoolList">School
+                                <option value="" selected disabled> School</option>
+                                <option value="VVV">VVV</option>
+                                <option value="ABC">ABC</option>
+                            </select>
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">Department:</td>
+                        <td><select name="Department" id="departmentList">Department
+                                <option value="" selected disabled>Department</option>
+                                <option value="csc">CSE</option>
+                                <option value="EEE">EEE</option>
+                            </select>
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">Course:</td>
+                        <td><select name="Course" id="courseList">
+                                <option value="" selected disabled>Course</option>
+                                <option value="QQQ">QQQ</option>
+                                <option value="SSSS">SSSS</option>
+                            </select>
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="text-white">Mobile Number:</td>
+                        <td><input type="number" maxlength="10">
+                            <p></p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="Reset" class="btn btn-danger"></td>
+                        <td><input type="submit" class="btn btn-success"></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="success text-success d-none m-5">Registered Successfully</div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
